@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    font-family: helvetica;
+}
+
+
+h1 {
+    font-size: 45px;
+    <-background: #dce3ef;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-top: 0px;
+}
+
+.error {
+    color: red;
+    font-size: 40;
+    font-weight: bold;
+}
+
+.getGif{
+    text-align: center;
+    background-color: #dce3ef;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.riddle {
+    background-color: #dce3ef;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.button {
+    background-color: #1560d8;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.errorClass {
+    border: 1px solid red;    
+}

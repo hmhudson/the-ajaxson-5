@@ -4,18 +4,31 @@
     <title>The AJAXson 5</title>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="request-gif.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
     <h1>The AJAXson 5</h1>
 
-    <form id="form-gif-request" />
-        <label>What kind of Jackson 5 related gif do you want?</label>
-        <input name="tag" type="text"/>
-        <input type="submit" value="Get my Gif!" />
+    <form id="form-gif-request" class= "getGif"/>
+        <label class= "getGif">What kind of Jackson 5 related gif do you want?</label>
+        <br>
+        <br>
+        <input id= "search" name="tag" type="text" class= "input"/>
+        <input type="submit" class= "button" value="Get my Gif!" />
+    </form>
+    <br>
+    <br>
+    <form id="verify-riddle" class= "riddle" data-toggle="validator">
+        <label> Prove you are not a robot by filling in this sentence:</label>
+        <br>
+        <br>
+        <input id= "verify" type= "text"/>
+        Jacksons are better than 1
     </form>
 
-    <img id="gif" src="" hidden="true"/>
-    <p id="feedback" hidden="true`"></p>
+    <p id="feedback" hidden="true"></p>
+    <img id="gif" src="https://api.giphy.com/v1/gifs/search" hidden="true"/>
+
 
 </body>
 </html>
