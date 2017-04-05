@@ -29,7 +29,7 @@ function fetchAndDisplayGif(event) {
             .attr("hidden", false);
             $("#verify").removeClass('errorClass');
         // get the user's input text from the DOM
-        var searchQuery = $("#search").val() 
+        var searchQuery = $("#search").val()
 
         // configure a few parameters to attach to our request
         var params = {
